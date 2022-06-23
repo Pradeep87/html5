@@ -1,0 +1,14 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+@import'./mixingVarible';
+@import './scss/navbar';
+@import './scss/homePage';
+
+.bord {
+  border: 1px solid red;
+}

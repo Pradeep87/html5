@@ -1,0 +1,23 @@
+$pageColor: #fefaf6;
+$sectionColor: #fef4ea;
+$footerColor: #513125;
+$fontHeading: #513125;
+$fontsubHeading: #c47a5e;
+$btnColor: #c47a5e;
+$headingFamily: "Marcellus", serif;
+$subHeadingFamily: "Tenor Sans", sans-serif;
+$textLight: #ffff;
+
+@mixin flex($dir, $justify, $align) {
+  display: flex;
+  flex-direction: $dir;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+
+@mixin font($color,$size,$family) {
+  color:$color ;
+  font-size: $size;
+  font-family:$family ;
+}
